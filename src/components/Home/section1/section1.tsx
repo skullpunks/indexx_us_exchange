@@ -3,14 +3,14 @@ import "./sections1.css"
 // import BackgroundImage from "../../../assets/background.png";
 import IndexxText from "../../../assets/mainlogo.png";
 import a from "../../../assets/homepage/a.png";
-import g from "../../../assets/homepage/g.png";
-import r from "../../../assets/homepage/r.png";
+// import g from "../../../assets/homepage/g.png";
+// import r from "../../../assets/homepage/r.png";
 import w from "../../../assets/homepage/w.png";
 // import y from "../../../assets/homepage/y.png";
 import walet from "./wallet.png";
 
 // import { Link } from "react-router-dom";
-import { baseCEXURL, baseDEXURL } from "../../../services/api";
+import {  baseDEXURL } from "../../../services/api";
 // import { Button } from "antd";
 import { Image } from "antd";
 
@@ -53,7 +53,7 @@ const Section1 = () => {
     </div>
     
     
-    <div className="col" style={{marginLeft:-300,marginRight:-300}}>
+    {/* <div className="col" style={{marginLeft:-300,marginRight:-300}}>
     <a href="https://wallet.indexx.ai/">
     <Image src={r} preview={false} style={{marginTop:-10,}}/>
     <div style={{marginTop:7}}>
@@ -66,7 +66,7 @@ const Section1 = () => {
     <Image src={g} preview={false}/><br/>
     <br/><span style={{color:"white",alignContent:"center"}}>Exchange</span>
     </a>
-    </div>
+    </div> */}
     <div className="col" style={{marginLeft:-300,marginRight:-300}}>
     <a href={baseDEXURL}>
     <Image src={w} preview={false}/><br/>
