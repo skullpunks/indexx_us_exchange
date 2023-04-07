@@ -1,0 +1,29 @@
+.aibanner {
+    background-image: url("../../../assets/coinAnimations/aibanner.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    height: calc(100vw * 0.26);
+    background-position: center 100%; 
+    position: relative;
+    align-self: center;
+    text-align: center;
+    scale:1;
+    margin-top: -20px;
+}
+
+
+.meeting_bannerr {
+
+    width:100%;
+    background-image: url("../../../assets/coinAnimations/aibanner.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size:cover;
+    padding-bottom:10%;
+    padding-top:5%;
+    height:400px;
+    align-self: center;
+    text-align: center;
+    
+}

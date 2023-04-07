@@ -1,0 +1,102 @@
+.section2-container {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: -100px;
+    flex-direction: column;
+}
+
+.section2-table {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #E6E8EA;
+}
+
+.table-row {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 16px;
+    border-bottom: 1px solid rgba(0, 109, 255, 0.2);
+}
+
+.table-header-element {
+    color: #939292;
+    font-family: AvenirRegular, serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    width: 25%;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.coinName {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.coin-initials {
+    color: black;
+    padding: 0 6px;
+}
+
+.price {
+    color: black;
+}
+
+.hourChange {
+    color: #006DFF;
+}
+
+.all_markets {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.view_all_btn {
+
+    height: 60px;
+    border-radius: 0;
+    color:#006DFF;
+    border-color:#006DFF;
+}
+
+
+@media (max-width: 767px) {
+    .table-header-element {
+        text-align: center;
+
+    }
+
+    .table-row {
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: space-between;
+    }
+
+    .table-row>div {
+        margin-right: 10px;
+    }
+
+    .coinName span {
+        display: none;
+    }
+
+
+
+    .section2-table {
+
+        margin: 0 10px;
+        width: calc(100% - 20px);
+    }
+
+    .chart-icon {
+        max-width: 98px;
+    }
+}

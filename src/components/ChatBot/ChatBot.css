@@ -1,0 +1,26 @@
+
+
+.chat-bot-container{
+    border: 2px;
+    border-color: gray;
+    border-style:ridge;
+    padding:30px;
+    opacity:70%;
+    
+}
+
+.resultDisplay{
+    width:700px;
+    height:400px;
+    text-align: left;
+}
+
+.botimage{
+    text-align: left;
+    width:100px;
+    align-items: left;
+    align-self: left;
+}
+.ant-space-item{
+    text-align: left;
+}

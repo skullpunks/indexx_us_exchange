@@ -1,0 +1,67 @@
+.bank_info_card {
+    min-width: 550px;
+}
+
+.font_28x {
+    font-size: 28px;
+}
+
+.no-outline, .outline-none {
+    outline: none;
+}
+
+@media (max-width: 767px) {
+
+    .deposit_ontainer {
+        display: block !important;
+    }
+
+    .deposit_ontainer .order_history button {
+        margin-left: 0;
+    }
+
+    .top_heading {
+        font-size: 35px;
+    }
+
+    .amount_container {
+        font-size: 22px;
+    }
+
+    .d_crypto_Container {
+        display: block !important;
+    }
+
+    .d_crypto_Container .crypto_con_button {
+        /* text-align: center; */
+        text-align: end;
+    }
+
+    .d_crypto_status {
+        justify-content: space-between;
+    }
+
+    .responsive_recent_deposits .d-flex,
+    .responsive_recent_deposits.d-flex {
+        display: block !important;
+    }
+
+    .responsive_recent_deposits .font_15x {
+        font-size: 10px;
+    }
+
+    .wallet_funding {
+        padding-left: 20px;
+    }
+
+    .recent_deposit_container {
+        padding: 0;
+        border: 0;
+    }
+
+    .w_fiat .font_40x {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+}

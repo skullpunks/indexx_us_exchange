@@ -1,0 +1,164 @@
+.zombieButton {
+    background-color:#9bc61b!important; 
+    border-radius: 10;
+    border-color: #9bc61b!important; 
+    width: 280px;
+    height: 43px;
+}
+
+.zombieButton:hover{
+    background-color: #85a919!important;
+    border-color: #85a919!important;
+
+}
+
+
+.secButton {
+    background-color:#ffffff!important; 
+    border-radius: 10;
+    border-color: #000000!important; 
+    width: 280px;
+    text-align: center;
+    height: 43px;
+    color: #000000;
+}
+
+.secButton:hover{
+    background-color: #ffffff!important;
+    border-color: #000000!important;
+    color:#000000;
+}
+
+.tButton {
+    background-color:#a804ff!important; 
+    border-radius: 10;
+    border-color: #9205de!important; 
+    width: 280px;
+    height: 43px;
+}
+
+.tButton:hover{
+    background-color: #7802b7!important;
+    border-color: #7802b7!important;
+}
+
+
+
+.skButton {
+    background-color:#fc9104!important; 
+    border-radius: 10;
+    border-color: #fc9104!important; 
+    width: 280px;
+    height: 43px;
+}
+
+.skButton:hover{
+    background-color: #ea8706!important;
+    border-color: #ea8706!important;
+}
+
+
+
+
+
+
+
+
+.skulltext{
+    font-size: 35px;
+    color:#9bc61b
+}
+
+.skulllinktext{
+    font-size: 14px;
+    color:#9bc61b
+}
+.skulllinktext:hover{
+    color:#8fb718
+}
+
+.skulltext:hover{
+    font-size: 35px;
+    color:#83a716
+}
+
+
+
+.srtext{
+    font-size: 35px;
+    color:#000000;
+}
+.srtext:hover{
+    font-size: 35px;
+    color:#000000;
+}
+.srlinktext{
+    font-size: 14px;
+    color:#000000;
+}
+.srlinktext:hover{
+    color:#000000;
+}
+
+
+
+.mftext{
+    font-size: 35px;
+    color:#a804ff;
+}
+.mftext:hover{
+    font-size: 35px;
+    color:#9003db;
+}
+.mflinktext{
+    font-size: 14px;
+    color:#a804ff;
+}
+.mflinktext:hover{
+    color:#9003db;
+}
+
+
+.inextext{
+    font-size: 35px;
+    color:#0259B8;
+}
+.inextext:hover{
+    font-size: 35px;
+    color:#03478f;
+}
+.inexlinktext{
+    font-size: 14px;
+    color:#0259B8;
+}
+.inexlinktext:hover{
+    color:#03478f;
+}
+
+
+
+
+
+
+
+.sktext{
+    font-size: 35px;
+    color:#fc9104;
+}
+.sktext:hover{
+    font-size: 35px;
+    color:#e78403;
+}
+.sorektlinktext{
+    font-size: 14px;
+    color:#fc9104;
+}
+.sktexttext:hover{
+    color:#e78403;
+}
+
+
+
+.scaleup:hover{
+    scale: 1.2;
+}

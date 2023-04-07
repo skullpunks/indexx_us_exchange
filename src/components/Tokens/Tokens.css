@@ -1,0 +1,289 @@
+.firstButton {
+  background-color: #00b64f !important;
+  border-radius: 10;
+  border-color: #00b64f !important;
+  width: 280px;
+  height: 43px;
+}
+
+.firstButton:hover {
+  background-color: #007433 !important;
+  border-color: #007433 !important;
+}
+
+.secondButton {
+  background-color: #0079fa !important;
+  border-radius: 10;
+  border-color: #0079fa !important;
+  width: 280px;
+  text-align: center;
+  height: 43px;
+}
+
+.secondButton:hover {
+  background-color: #012dac !important;
+  border-color: #012dac !important;
+}
+
+.thirdButton {
+  background-color: #1d860a !important;
+  border-radius: 10;
+  border-color: #1d860a !important;
+  width: 280px;
+  height: 43px;
+}
+
+.thirdButton:hover {
+  background-color: #155e09 !important;
+  border-color: #155e09 !important;
+}
+
+.fourthButton {
+  background-color: #0259b8 !important;
+  border-radius: 10;
+  border-color: #0259b8 !important;
+  width: 280px;
+  text-align: center;
+  height: 43px;
+}
+
+.fourthButton:hover {
+  background-color: #03468d !important;
+  border-color: #0259b8 !important;
+  text-align: center;
+}
+
+.fifthButton {
+  background-color: #11be6a !important;
+  border-radius: 10;
+  border-color: #11be6a !important;
+  width: 280px;
+  text-align: center;
+  height: 43px;
+}
+
+.fifthButton:hover {
+  background-color: #d85531 !important;
+  border-color: #d85531 !important;
+  text-align: center;
+}
+
+.sixthButton {
+    background-color:#353434!important; 
+    border-radius: 10;
+    border-color: #ffffff!important; 
+    width: 280px;
+    text-align: center;
+    height: 43px;
+    color: white;
+}
+
+.sixthButton:hover{
+    background-color: #000000!important;
+    border-color: #ffffff!important;
+    text-align: center;
+    color: white;
+}
+
+
+.sixthButton {
+  background-color: #ffffff !important;
+  border-radius: 10;
+  border-color: #020202 !important;
+  width: 280px;
+  text-align: center;
+  height: 43px;
+  color:#000000;
+}
+
+.sixthButton:hover {
+  background-color: #ffffff !important;
+  border-radius: 10;
+  border-color: #020202 !important;
+  width: 280px;
+  text-align: center;
+  height: 43px;
+  color:#000000;
+}
+
+
+.photext {
+  font-size: 35px;
+  color: #11be6a;
+}
+
+.pholinktext {
+  font-size: 14px;
+  color: #11be6a;
+}
+.pholinktext:hover {
+  color: #d85531;
+}
+
+.photext:hover {
+  font-size: 35px;
+  color: #d85531;
+}
+
+.cryptotext {
+  font-size: 35px;
+  color: #00b64f;
+}
+
+.cryptolinktext {
+  font-size: 14px;
+  color: #00b64f;
+}
+.cryptolinktext:hover {
+  color: #029743;
+}
+
+.cryptotext:hover {
+  font-size: 35px;
+  color: #029743;
+}
+
+.in500text {
+  font-size: 35px;
+  color: #0079fa;
+}
+.in500text:hover {
+  font-size: 35px;
+  color: #012dac;
+}
+.in500linktext {
+  font-size: 14px;
+  color: #0079fa;
+}
+.in500linktext:hover {
+  color: #012dac;
+}
+
+.iusdtext {
+  font-size: 35px;
+  color: #1d860a;
+}
+.iusdtext:hover {
+  font-size: 35px;
+  color: #155e09;
+}
+.iusdlinktext {
+  font-size: 14px;
+  color: #1d860a;
+}
+.iusdlinktext:hover {
+  color: #155e09;
+}
+
+.inextext {
+  font-size: 35px;
+  color: #0259b8;
+}
+.inextext:hover {
+  font-size: 35px;
+  color: #03478f;
+}
+.inexlinktext {
+  font-size: 14px;
+  color: #0259b8;
+}
+.inexlinktext:hover {
+  color: #03478f;
+}
+
+
+
+.sorekttext {
+  font-size: 35px;
+  color: #000000;
+}
+
+.sorektlinktext {
+  font-size: 14px;
+  color: #000000;
+}
+
+.scaleup:hover {
+  scale: 1.4;
+}
+
+
+
+.in500text{
+    font-size: 35px;
+    color:#0079FA;
+}
+.in500text:hover{
+    font-size: 35px;
+    color:#012DAC;
+}
+.in500linktext{
+    font-size: 14px;
+    color:#0079FA;
+}
+.in500linktext:hover{
+    color:#012DAC;
+}
+
+
+
+.iusdtext{
+    font-size: 35px;
+    color:#1D860A;
+}
+.iusdtext:hover{
+    font-size: 35px;
+    color:#155e09;
+}
+.iusdlinktext{
+    font-size: 14px;
+    color:#1D860A;
+}
+.iusdlinktext:hover{
+    color:#155e09;
+}
+
+
+.inextext{
+    font-size: 35px;
+    color:#0259B8;
+}
+.inextext:hover{
+    font-size: 35px;
+    color:#03478f;
+}
+.inexlinktext{
+    font-size: 14px;
+    color:#0259B8;
+}
+.inexlinktext:hover{
+    color:#03478f;
+}
+
+
+
+
+.sorekttext{
+    font-size: 35px;
+    color:#353434;
+}
+.sorekttext:hover{
+    font-size: 35px;
+    color:#212121;
+}
+.sorektlinktext{
+    font-size: 14px;
+    color:#353434;
+}
+.sorekttext:hover{
+    color:#212121;
+}
+
+
+
+
+
+
+.scaleup:hover{
+    scale: 1.2;
+}

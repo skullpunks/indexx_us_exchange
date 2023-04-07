@@ -1,0 +1,121 @@
+.meeting_banner {
+  width: 100%;
+  background-image: url("../../../assets/coinAnimations/testbg.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+
+.login-button {
+  border-bottom: 50px solid #11be6a;
+  border-left: 25px solid transparent;
+  margin-right: -20px;
+  margin-bottom: -42px;
+}
+
+.login-button:hover {
+  border-bottom-color: #0ea55a;
+  border-left-color: transparent;
+}
+
+.launch-app-button {
+  border-top: 50px solid #006dff;
+  border-right: 25px solid transparent;
+  margin-bottom: -42px;
+  margin-right: -20px;
+}
+.launch-app-button:hover {
+  border-top: 50px solid #00387e;
+  border-right: 25px solid transparent;
+  margin-bottom: -42px;
+  margin-right: -20px;
+}
+
+.meeting_right {
+  padding-bottom: 35px;
+}
+
+.line_height_1 {
+  line-height: 1;
+}
+
+.mega_heading {
+  font-size: 80px;
+  font-family: AvenirMedium;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.text-banner {
+  font-size: 40px;
+  color: #ca7561;
+}
+
+.tm_text {
+  font-size: 15px;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+}
+#11be6a .trade_percentage {
+  font-family: AvenirHeavy;
+  font-size: 130px;
+  margin-top: 20px;
+}
+
+.earn_btn {
+  font-size: 22px;
+  min-height: 43px;
+  margin: 35px auto 0;
+}
+
+.ant-btn.btn-success.earn_btn {
+  max-width: 325px;
+}
+
+@media (max-width: 767px) {
+  .trade_percentage {
+    font-size: 50px !important;
+  }
+
+  .trade_percentage span {
+    font-size: 30px !important;
+  }
+
+  .ant-btn.btn-success.earn_btn {
+    max-width: calc(100% - 30px);
+  }
+
+  .tm_text {
+    font-size: 7px;
+  }
+
+  .mega_heading.text-white {
+    font-size: 25px !important;
+  }
+
+  .mega_heading.trade_percentage .mega_heading.trade_percentage span {
+    font-size: 30px !important;
+  }
+
+  .trade_to_earn_banner h1.text-white {
+    font-size: 15px;
+  }
+
+  .trade_to_earn_banner {
+    padding-right: 35px;
+  }
+
+  .trade_left {
+    display: none;
+  }
+
+  .meeting_right {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,245 @@
+.btn-danger {
+  --bs-btn-bg: #11be6a;
+  --bs-btn-hover-bg: #0ea55a;
+  --bs-btn-active-bg: #11be6a;
+}
+
+.scan-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 110px;
+  padding-bottom: 220px;
+  background-color: transparent;
+}
+
+.font_50x {
+  font-size: 50px;
+}
+
+.scan-Image {
+  object-fit: contain;
+  width: 653px;
+}
+
+.scan-heading {
+  color: white;
+  font-family: AvenirRegular, serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.helper-text {
+  font-family: AvenirRegular, serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+}
+
+.section-usp {
+  color: white;
+  font-family: AvenirMedium, serif;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0em;
+  padding: 20px;
+
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+
+.font-big {
+  color: white;
+  font-size: 45px;
+}
+
+.main-header {
+  background-color: #000;
+  padding: 26px 90px;
+  height: 90px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.undo_icon {
+  transform: scaleX(-1);
+  margin-right: 12px;
+}
+
+/* style={{ fontSize: "24px", color: "#5f5f5f" }} */
+.swap_icons {
+  font-size: 20px;
+  color: #5f5f5f;
+}
+
+.setting__icon {
+  width: 25px;
+  margin-right: 12px;
+}
+
+/* 
+.from__icon {
+    margin-bottom: 30px;
+} */
+
+.swap__coin__circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 109, 255, 0.1);
+  border: none;
+  background-image: url("../../assets/arts/downArrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.swap__coin__circle:hover {
+  /* background: rgba(0, 109, 255, 0.25); */
+  background-color: #006dff;
+  color: #fff !important;
+  border: none;
+  background-image: url("../../assets/arts/swapArrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info__text {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.icon__label {
+  margin-bottom: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.helper_text {
+  color: #006dff;
+  font-size: 14px;
+  font-family: "AvenirHeavy";
+}
+
+.lady_swap_icon {
+  padding-bottom: 120px;
+  margin-top: -190px;
+}
+
+.question_iocn {
+  color: #006dff;
+  font-size: 20px;
+}
+
+.coming_soon {
+  padding-top: 20px;
+}
+
+.coming_soon .page_name {
+  text-transform: capitalize;
+  /* padding-right: 10px; */
+}
+
+.ant-modal-close {
+  width: auto;
+}
+
+@media (max-width: 767px) {
+  .section-usp {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .center-Image {
+    height: 59px;
+    margin-top: -58px;
+  }
+
+  .font-big {
+    font-size: 18px;
+  }
+
+  .big_trade_font {
+    font-size: 55px;
+  }
+
+  .big_trade_font sub {
+    font-size: 10px !important;
+  }
+
+  .trade_to_earn_link {
+    padding-bottom: 50px;
+    display: block;
+    padding-top: 100px;
+  }
+
+  .section-helper-text {
+    font-size: 12px;
+  }
+
+  .cut_button {
+    max-width: 150px;
+  }
+
+  .font_50x {
+    font-size: 28px;
+  }
+
+  .logo {
+    padding-left: 0.75rem !important;
+  }
+
+  .home-container {
+    height: 800px;
+  }
+
+  .selected-header,
+  .item-heading,
+  .label-container {
+    font-family: AvenirRegular, serif;
+  }
+
+  .navbar-toggler,
+  .navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+  }
+
+  .chart_buy {
+    display: none;
+  }
+
+  .buy_sell_bg {
+    background-size: contain;
+  }
+
+  .accounts_container .ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap {
+    padding-left: 12px !important;
+  }
+
+  .accounts_container .ant-tabs-tab + .ant-tabs-tab {
+    margin-left: 20px !important;
+  }
+
+  .accounts_container .ant-tabs-tab {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  /* .big_trade_font {
+        font-size: 28px;
+}
+
+.font-big {
+    font-size: 28px;
+}
+
+*/
+}
