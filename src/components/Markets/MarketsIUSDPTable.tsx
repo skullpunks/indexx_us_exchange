@@ -4,7 +4,6 @@ import type { ColumnsType } from 'antd/es/table';
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import { marketsData } from "../../services/api";
-import { top100Coins } from "../..//services/coingeckoAPI";
 
 interface DataType {
     key: React.Key;
@@ -20,8 +19,6 @@ interface DataType {
     HighPrice: any;
     LowPrice: any;
     Symbol: any;
-    imageURL: any;
-    isExternal: boolean
 }
 interface Props {
     search: string;
@@ -54,12 +51,9 @@ const MarketsIUSDPable: React.FC<(Props)> = ({ search }) => {
             //     console.log(decoded.email);
             //     setEmail(decoded.email);
             // }
-            marketsData().then(async (data) => {
-                let res = data.data.filter((x: any) => x.Symbol !== 'IUSDP');
-                let res1 = await top100Coins();
-                res = res.concat(res1);
-                setMarketData(res);
-                setMarketDataFixed(res);
+            marketsData().then((data) => {
+                setMarketData(data.data);
+                setMarketDataFixed(data.data);
                 setCalledOnce(true);
                 setLoadings(false)
             });
@@ -126,7 +120,7 @@ const MarketsIUSDPable: React.FC<(Props)> = ({ search }) => {
             dataIndex: 'Symbol',
             render: (_, record) => {
                 return <div>
-                    <img src={record.isExternal ? record.imageURL : require(`../../assets/token-icons/${record?.Symbol}.png`).default} alt="coin" width="30" height="30" />
+                    <img src={require(`../../assets/token-icons/${record?.Symbol}.png`).default} alt="coin" width="30" height="30" />
                     <p style={{ marginTop: "-33px", marginLeft: "39px" }}>{record?.Name}</p>
                     <p style={{ marginTop: "-6px", marginLeft: "38px" }}>{record?.Symbol + '/IUSD+'}</p>
                 </div>;

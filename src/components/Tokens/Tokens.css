@@ -54,9 +54,9 @@
 }
 
 .fifthButton {
-  background-color: #11be6a !important;
+  background-color: #d36243 !important;
   border-radius: 10;
-  border-color: #11be6a !important;
+  border-color: #d36243 !important;
   width: 280px;
   text-align: center;
   height: 43px;
@@ -66,23 +66,6 @@
   background-color: #d85531 !important;
   border-color: #d85531 !important;
   text-align: center;
-}
-
-.sixthButton {
-    background-color:#353434!important; 
-    border-radius: 10;
-    border-color: #ffffff!important; 
-    width: 280px;
-    text-align: center;
-    height: 43px;
-    color: white;
-}
-
-.sixthButton:hover{
-    background-color: #000000!important;
-    border-color: #ffffff!important;
-    text-align: center;
-    color: white;
 }
 
 
@@ -107,14 +90,57 @@
 }
 
 
+
+.seventhButton {
+  background-color: #6F00E2 !important;
+  border-radius: 10;
+  border-color: #6F00E2 !important;
+  width: 280px;
+  text-align: center;
+  height: 43px;
+ 
+}
+
+.seventhButton:hover {
+  background-color: #5001a5 !important;
+  border-radius: 10;
+  border-color: #5001a5 !important;
+  width: 280px;
+  text-align: center;
+  height: 43px;
+
+}
+
+
+.hashtext {
+  font-size: 35px;
+  color: #6F00E2;
+}
+
+.hashlinktext {
+  font-size: 14px;
+  color: #6F00E2;
+}
+.hashlinktext:hover {
+  color:#5001a5;
+}
+
+.hashtext:hover {
+  font-size: 35px;
+  color: #5001a5;
+}
+
+
+
+
 .photext {
   font-size: 35px;
-  color: #11be6a;
+  color: #d36243;
 }
 
 .pholinktext {
   font-size: 14px;
-  color: #11be6a;
+  color: #d36243;
 }
 .pholinktext:hover {
   color: #d85531;
@@ -205,85 +231,4 @@
 
 .scaleup:hover {
   scale: 1.4;
-}
-
-
-
-.in500text{
-    font-size: 35px;
-    color:#0079FA;
-}
-.in500text:hover{
-    font-size: 35px;
-    color:#012DAC;
-}
-.in500linktext{
-    font-size: 14px;
-    color:#0079FA;
-}
-.in500linktext:hover{
-    color:#012DAC;
-}
-
-
-
-.iusdtext{
-    font-size: 35px;
-    color:#1D860A;
-}
-.iusdtext:hover{
-    font-size: 35px;
-    color:#155e09;
-}
-.iusdlinktext{
-    font-size: 14px;
-    color:#1D860A;
-}
-.iusdlinktext:hover{
-    color:#155e09;
-}
-
-
-.inextext{
-    font-size: 35px;
-    color:#0259B8;
-}
-.inextext:hover{
-    font-size: 35px;
-    color:#03478f;
-}
-.inexlinktext{
-    font-size: 14px;
-    color:#0259B8;
-}
-.inexlinktext:hover{
-    color:#03478f;
-}
-
-
-
-
-.sorekttext{
-    font-size: 35px;
-    color:#353434;
-}
-.sorekttext:hover{
-    font-size: 35px;
-    color:#212121;
-}
-.sorektlinktext{
-    font-size: 14px;
-    color:#353434;
-}
-.sorekttext:hover{
-    color:#212121;
-}
-
-
-
-
-
-
-.scaleup:hover{
-    scale: 1.2;
 }

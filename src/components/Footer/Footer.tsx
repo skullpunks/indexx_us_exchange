@@ -277,7 +277,7 @@ const Footer = ({ helpIcon = true, footerArt = 'flipMan' }: FooterProps) => {
               </div>
             </div>
           </div>
-          <div className="col-xs-6 col-md-4 flip_icon_container">
+          <div className="col-xs-6 col-md-4 flip_icon_container" style={{marginBottom:"-3rem"}}>
             {/* {footerArt === 'flipWoman' ? (
               <img
                 src={womanFlipCoin}
@@ -388,7 +388,7 @@ const Footer = ({ helpIcon = true, footerArt = 'flipMan' }: FooterProps) => {
                     </a>
                     <br />
                     <a
-                      href="https://tokens.indexx.ai/"
+                     href={`${baseURL}/indexx-exchange/token-details`}
                       style={{ color: '#9F9F9F', textDecoration: 'none' }}
                     >
                       indexx Tokens

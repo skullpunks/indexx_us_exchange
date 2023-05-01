@@ -43,12 +43,13 @@ import BSDepositFiatLayout from "./components/BSDeposit/BSDepositFiatLayout";
 import BSWithdrawCryptoLayout from "./components/BSDepositWithdraw/BSWithdrawCryptoLayout";
 import IndexxTokens from "./components/IndexxTokens/IndexxTokens";
 import ComingSoon from "./components/ComingSoon/ComingSoon";
-import HeaderNew from "./components/Header/HeaderNew";
+// import HeaderNew from "./components/Header/HeaderNew";
 import About from "./components/About/About";
 import IndexxCrypto from "./components/Tokens/indexCrypto";
 import Index500 from "./components/Tokens/index500";
 import IndexUSD from "./components/Tokens/indexUsd";
 import Account from "./components/AccountSettings/Account";
+import Xchange from "./components/Home/section1/sectionfirst";
 // import BSDashhboard from './components/BuySell/BSDashboard';
 import SecurityChange from "./components/AccountSettings/SecurityChange";
 // import Blockpass from './components/Blockpass/Blockpass';
@@ -105,7 +106,7 @@ function App() {
       <BrowserRouter>
         {/* <Header /> */}
         <ScrollToTop />
-        <HeaderNew />
+        {/* <HeaderNew /> */}
         <Routes>
         {/* Below line should be enabled for prod */}
         {/* <Route path="/" element={<Home />} />  */}
@@ -192,6 +193,10 @@ function App() {
           <Route
             path="/indexx-exchange/how-it-works"
             element={<HowItWorks />}
+          />
+           <Route
+            path="/xchange"
+            element={<Xchange />}
           />
           <Route
             path="/indexx-exchange/how-it-works/centralized"

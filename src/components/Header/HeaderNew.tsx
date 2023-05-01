@@ -175,7 +175,7 @@ const HeaderNew = () => {
                     </Text>
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href="https://indexx.ai/indexx-exchange/token-details"
+                     href={`${baseURL}/indexx-exchange/token-details`}
                     className="dropdown-item"
                     target="_blank"
                     rel="noreferrer"
@@ -659,7 +659,7 @@ const HeaderNew = () => {
                       </Text>
                     </NavDropdown.Item>
                     <NavDropdown.Item
-                      href="https://indexx.ai/indexx-exchange/token-details"
+                       href={`${baseURL}/indexx-exchange/token-details`}
                       className="dropdown-item"
                       target="_blank"
                       rel="noreferrer"
