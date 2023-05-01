@@ -73,9 +73,39 @@ import Career from "./components/Careers/Career";
 import WelcomePage from "./components/WelcomePage";
 import IndexxEX from "./components/Tokens/indexEx";
 import IndexxPho from "./components/Tokens/indexPho";
+import { useEffect, useState } from "react";
+import { baseURL, geolocationData } from "./services/api";
+import { Button, Image, Modal } from "antd";
+import lockedimage from './assets/arts/locked.png';
 // import CareerSoon from './components/Careers/CareerSoon';
 
 function App() {
+  const [ip, setIP] = useState('');
+  const [isTransferModalVisible, setIsTransferModalVisible] = useState(false);
+
+  useEffect(() => {
+    geolocationData().then((res: any) => {
+      setIP(res.data.IPv4);
+      if(!(res.data.country_name === 'United States' || res.data.country_code === 'US')) {
+        setIsTransferModalVisible(true);
+      } else {
+        setIsTransferModalVisible(false);
+      }
+    });
+  }, []);
+
+  const handleTransferOk = () => {
+    localStorage.setItem('userIp', ip);
+    setIsTransferModalVisible(false);
+  };
+
+  const handleTransferCancel = () => {
+    setIsTransferModalVisible(false);
+  };
+
+  const handleOk = () => {
+    // setLoading(true);
+  };
   /*
     const [email, setEmail] = useState('');
     const [userData, setUserData] = useState() as any;
@@ -103,6 +133,54 @@ function App() {
 */
   return (
     <div>
+      <div>
+          <Modal
+            maskStyle={{backdropFilter: "blur(2px)"}}
+            centered={true}
+            open={isTransferModalVisible}
+            onOk={handleTransferOk}
+            onCancel={handleTransferCancel}
+            width={670}
+            maskClosable={false}
+            footer={[
+              <Button
+                danger
+                size="large"
+                href={baseURL}
+                style={{ marginBottom: 20, width: '100%' }}
+                type="primary"
+                onClick={handleOk}
+              >
+                Go To indexx.ai
+              </Button>,
+
+              <Button
+                className="center"
+                type="link"
+                onClick={handleTransferCancel}
+              >
+                Cancel
+              </Button>,
+            ]}
+          >
+            <div className="align-center text-center">
+              <Image preview={false} src={lockedimage}></Image>
+              <p
+                className="text-center"
+                style={{ fontSize: 30, fontWeight: 400 }}
+              >
+                Service Notice
+              </p>
+              <p>
+                Your IP address indicates that you’re attempting to access our
+                services from the outside US. As per our Terms and Use, we’re unable to
+                provide services to users from the region. Instead, please use
+                our partner platform dedicated to Non-US customers.
+              </p>
+            </div>
+          </Modal>
+        
+        </div>
       <BrowserRouter>
         {/* <Header /> */}
         <ScrollToTop />
