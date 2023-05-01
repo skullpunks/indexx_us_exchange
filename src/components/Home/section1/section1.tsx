@@ -5,8 +5,8 @@ import IndexxText from "../../../assets/mainlogo.png";
 import a from "../../../assets/homepage/a.png";
 // import g from "../../../assets/homepage/g.png";
 // import r from "../../../assets/homepage/r.png";
-// import w from "../../../assets/homepage/w.png";
-import x from "../../../assets/xx.png";
+import w from "../../../assets/homepage/w.png";
+// import x from "../../../assets/xx.png";
 import f from "../../../assets/homepage/f.png";
 // import walet from "./wallet.png";
 
@@ -59,9 +59,9 @@ const Section1 = () => {
     </a>
     </div>
     <div className="col text-center" style={{}}>
-        <a href="/xchange">
-        <Image src={x} preview={false} width={70} style={{marginBottom:8}}></Image> 
-      <br/><span style={{color:"white",alignContent:"center"}}> Indexx X</span>
+        <a href="https://test.swap.indexx.ai/">
+        <Image src={w} preview={false} width={70} style={{marginBottom:8}}></Image> 
+      <br/><span style={{color:"white",alignContent:"center"}}> Swap</span>
       </a>
      
       
