@@ -21,7 +21,7 @@ const Section1 = () => {
     return (
         <div style={{backgroundColor:'black'}} className="home-container">
             <div>
-                <img src={IndexxText} alt="Indexx Logo" className="center-Image" style={{height:95}}/>
+                <img src={IndexxText} alt="Indexx Logo" className="center-Image" style={{width:290,height:70}}/>
             </div>
             <div className="section-helper-text" >Web3 and Crypto</div>
             <br/><br/><br/>
